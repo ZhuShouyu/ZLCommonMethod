@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'ZLCommonMethod_Example', :exclusive => true do
+  pod "ZLCommonMethod", :path => "../"
+end
+
+target 'ZLCommonMethod_Tests', :exclusive => true do
+  pod "ZLCommonMethod", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end

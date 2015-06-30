@@ -1,0 +1,21 @@
+PODS:
+  - FBSnapshotTestCase (2.0.2):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.2)
+  - FBSnapshotTestCase/Core (2.0.2)
+  - FBSnapshotTestCase/SwiftSupport (2.0.2):
+    - FBSnapshotTestCase/Core
+  - ZLCommonMethod (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ZLCommonMethod (from `../`)
+
+EXTERNAL SOURCES:
+  ZLCommonMethod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: fd500d5b282c4ec60215d26d0b58b0cf271dd0d6
+  ZLCommonMethod: e95326019d63a1445e07598d0176f13a4588712c
+
+COCOAPODS: 0.36.0
