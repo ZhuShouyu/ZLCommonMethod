@@ -49,9 +49,11 @@ code_sign() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'FBSnapshotTestCase.framework'
+  install_framework 'MBProgressHUD.framework'
   install_framework 'ZLCommonMethod.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'FBSnapshotTestCase.framework'
+  install_framework 'MBProgressHUD.framework'
   install_framework 'ZLCommonMethod.framework'
 fi
