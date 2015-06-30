@@ -10,6 +10,11 @@
 		001BE1D4802A529D5EE80602 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D0D56518F7F192B0670D55 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		06CACE80F2801A7F62AECEDD /* Pods-ZLCommonMethod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4293AA5EB340A1A161C1B948 /* Pods-ZLCommonMethod_Example-dummy.m */; };
 		10D6378DCDBA16C8771B628D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = B1CEDC4E18555FCF10C6DF3D /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		151E63531B42C39700562DF6 /* UILabel+ZLLabelCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 151E63511B42C39700562DF6 /* UILabel+ZLLabelCategory.h */; };
+		151E63541B42C39700562DF6 /* UILabel+ZLLabelCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 151E63521B42C39700562DF6 /* UILabel+ZLLabelCategory.m */; };
+		151E63561B42C5C100562DF6 /* ZLCommonStaticInlineMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = 151E63551B42C5C100562DF6 /* ZLCommonStaticInlineMethod.h */; };
+		151E63591B42C6C000562DF6 /* ZLCommonHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 151E63571B42C6C000562DF6 /* ZLCommonHUD.h */; };
+		151E635A1B42C6C000562DF6 /* ZLCommonHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 151E63581B42C6C000562DF6 /* ZLCommonHUD.m */; };
 		1559C9C40FD527EB1D0F4B89 /* Pods-ZLCommonMethod_Tests-ZLCommonMethod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15040B195176AE0EA80AE3B9 /* Pods-ZLCommonMethod_Tests-ZLCommonMethod-dummy.m */; };
 		1592F9FB53E218E9CC4C8C23 /* Pods-ZLCommonMethod_Example-ZLCommonMethod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A24222D7357220B0ABE1E5B5 /* Pods-ZLCommonMethod_Example-ZLCommonMethod-dummy.m */; };
 		23734B65F5E32C57A732D393 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64AFF80AA130111CC52934E0 /* Foundation.framework */; };
@@ -136,6 +141,11 @@
 		11BF1D86EFE1D9DD250ABDB9 /* Pods-ZLCommonMethod_Example-MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLCommonMethod_Example-MBProgressHUD.xcconfig"; sourceTree = "<group>"; };
 		1312B4B82CD5C54025EC86EF /* ZLCommonMethod.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZLCommonMethod.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		15040B195176AE0EA80AE3B9 /* Pods-ZLCommonMethod_Tests-ZLCommonMethod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-ZLCommonMethod_Tests-ZLCommonMethod-dummy.m"; path = "../Pods-ZLCommonMethod_Tests-ZLCommonMethod/Pods-ZLCommonMethod_Tests-ZLCommonMethod-dummy.m"; sourceTree = "<group>"; };
+		151E63511B42C39700562DF6 /* UILabel+ZLLabelCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZLLabelCategory.h"; sourceTree = "<group>"; };
+		151E63521B42C39700562DF6 /* UILabel+ZLLabelCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZLLabelCategory.m"; sourceTree = "<group>"; };
+		151E63551B42C5C100562DF6 /* ZLCommonStaticInlineMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCommonStaticInlineMethod.h; sourceTree = "<group>"; };
+		151E63571B42C6C000562DF6 /* ZLCommonHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLCommonHUD.h; sourceTree = "<group>"; };
+		151E63581B42C6C000562DF6 /* ZLCommonHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLCommonHUD.m; sourceTree = "<group>"; };
 		1BABFCB4497B67F66FB43867 /* ZLCommonMethod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZLCommonMethod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F655283CD9A6DCD42C3BAE2 /* Pods-ZLCommonMethod_Example-MBProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLCommonMethod_Example-MBProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
 		265D8F07DC2584E675BB5A1A /* Pods-ZLCommonMethod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZLCommonMethod_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -303,6 +313,11 @@
 				7E8327AAEC35C1960AF3E0D2 /* NSString+ZLStringCategory.m */,
 				F20684E7E960DE748AA3A2C0 /* UIColor+ZLColorCategory.h */,
 				32E9E9370CF68F27C9223697 /* UIColor+ZLColorCategory.m */,
+				151E63511B42C39700562DF6 /* UILabel+ZLLabelCategory.h */,
+				151E63521B42C39700562DF6 /* UILabel+ZLLabelCategory.m */,
+				151E63551B42C5C100562DF6 /* ZLCommonStaticInlineMethod.h */,
+				151E63571B42C6C000562DF6 /* ZLCommonHUD.h */,
+				151E63581B42C6C000562DF6 /* ZLCommonHUD.m */,
 			);
 			path = CommonCategory;
 			sourceTree = "<group>";
@@ -578,7 +593,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				151E63531B42C39700562DF6 /* UILabel+ZLLabelCategory.h in Headers */,
+				151E63561B42C5C100562DF6 /* ZLCommonStaticInlineMethod.h in Headers */,
 				710DA9CB5D0EE32C3107F0E4 /* Pods-ZLCommonMethod_Example-umbrella.h in Headers */,
+				151E63591B42C6C000562DF6 /* ZLCommonHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -884,6 +902,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				06CACE80F2801A7F62AECEDD /* Pods-ZLCommonMethod_Example-dummy.m in Sources */,
+				151E63541B42C39700562DF6 /* UILabel+ZLLabelCategory.m in Sources */,
+				151E635A1B42C6C000562DF6 /* ZLCommonHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
