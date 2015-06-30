@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Siam" => "shouyuzhu@hotmail.com" }
-  s.source           = { :git => "https://github.com/ZhuShouyu/ZLCommonMethod.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/ZhuShouyu/ZLCommonMethod.git", :tag => "0.0.4" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
