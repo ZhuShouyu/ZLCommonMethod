@@ -3,4 +3,8 @@ framework module FBSnapshotTestCase {
 
   export *
   module * { export * }
+
+  private header "FBSnapshotTestController.h"
+  private header "UIImage+Compare.h"
+  private header "UIImage+Diff.h"
 }
