@@ -5,7 +5,7 @@ PODS:
   - FBSnapshotTestCase/SwiftSupport (2.0.2):
     - FBSnapshotTestCase/Core
   - MBProgressHUD (0.9.1)
-  - ZLCommonMethod (0.1.0):
+  - ZLCommonMethod (0.1.2):
     - MBProgressHUD (~> 0.9.1)
 
 DEPENDENCIES:
@@ -19,6 +19,6 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FBSnapshotTestCase: fd500d5b282c4ec60215d26d0b58b0cf271dd0d6
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
-  ZLCommonMethod: 71332ac9c30768be041fcb766d88b4dcd44f1f5f
+  ZLCommonMethod: 8bf81c8e358765f7186ca0a7210345c089459f53
 
 COCOAPODS: 0.37.2

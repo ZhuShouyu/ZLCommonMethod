@@ -7,6 +7,7 @@
 //
 
 #import "ZLViewController.h"
+#import <ZLCommonMethod/NSString+ZLStringCategory.h>
 
 @interface ZLViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+//    ZLRandomVerifyCodeView *view = [[ZLRandomVerifyCodeView alloc] initWithFrame:CGRectMake(20, 20, CGRectGetWidth(self.view.frame) - 40, 40)];
+//    [view setBackgroundColor:[UIColor blueColor]];
+//    
+//    [self.view addSubview:view];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

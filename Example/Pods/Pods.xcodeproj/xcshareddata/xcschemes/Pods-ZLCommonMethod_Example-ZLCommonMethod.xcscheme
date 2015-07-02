@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "701256B5A98A23F1749FB1F8"
+               BlueprintIdentifier = "73481589F2DC76527401B468"
                BuildableName = "ZLCommonMethod.framework"
                BlueprintName = "Pods-ZLCommonMethod_Example-ZLCommonMethod"
                ReferencedContainer = "container:Pods.xcodeproj">
