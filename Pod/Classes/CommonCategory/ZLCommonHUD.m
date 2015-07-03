@@ -7,6 +7,7 @@
 //
 
 #import "ZLCommonHUD.h"
+#import "MBProgressHUD.h"
 
 static ZLCommonHUD *sharedInstanceHUD = nil;
 

@@ -10,7 +10,7 @@
 #define Pods_ZLCommonStaticInlineMethod_h
 
 typedef NS_ENUM(NSInteger, ZLSettingInfoToDefaultKeys) {
-    
+    ZLSettingInfoToDefaultKeysDefault,                  //默认元素
 };
 
 /**
@@ -42,7 +42,7 @@ static inline BOOL ZLCommonStatusForKey(NSString *defaultKey) {
  *  @return 查询到的结果
  */
 static inline NSString *ZLCommonValueForKey(ZLSettingInfoToDefaultKeys defaultKey) {
-    return [[NSUserDefaults standardUserDefaults] objectForKey:CommonKeyForTag(defaultKey)];
+    return [[NSUserDefaults standardUserDefaults] objectForKey:ZLCommonKeyForTag(defaultKey)];
 }
 
 /**
@@ -54,7 +54,7 @@ static inline NSString *ZLCommonValueForKey(ZLSettingInfoToDefaultKeys defaultKe
  *  @return N/A
  */
 static inline void ZLCommonValueUpdateForKey(ZLSettingInfoToDefaultKeys defaultKey, NSString *value) {
-    [[NSUserDefaults standardUserDefaults] setObject:value forKey:CommonKeyForTag(defaultKey)];
+    [[NSUserDefaults standardUserDefaults] setObject:value forKey:ZLCommonKeyForTag(defaultKey)];
 }
 
 /**
