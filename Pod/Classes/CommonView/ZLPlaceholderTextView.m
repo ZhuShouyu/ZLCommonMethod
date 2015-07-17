@@ -41,8 +41,9 @@
  *  初始化子界面
  */
 - (void)initializeTheSubviews {
-    _placeholderLabel = [[UILabel alloc] initWithFrame:self.bounds];
+    _placeholderLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 4, 0, 0)];
     _placeholderLabel.font = self.font;
+    _placeholderLabel.backgroundColor = [UIColor clearColor];
     _placeholderLabel.textColor = [UIColor grayColor];
     [self addSubview:_placeholderLabel];
     [_placeholderLabel sizeToFit];
@@ -67,10 +68,12 @@
 - (void)setPlaceholder:(NSString *)placeholder {
     _placeholder = placeholder;
     self.placeholderLabel.text = placeholder;
+    [self.placeholderLabel sizeToFit];
 }
 
 - (void)setAttributedPlaceholder:(NSAttributedString *)attributedPlaceholder {
     _attributedPlaceholder = attributedPlaceholder;
     self.placeholderLabel.attributedText = attributedPlaceholder;
+    [self.placeholderLabel sizeToFit];
 }
 @end

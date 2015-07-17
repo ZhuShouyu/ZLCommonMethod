@@ -7,7 +7,7 @@
 //
 
 #import "ZLViewController.h"
-#import <ZLCommonMethod/NSString+ZLStringCategory.h>
+#import <ZLCommonMethod/ZLPlaceholderTextView.h>
 
 @interface ZLViewController ()
 
@@ -18,7 +18,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+    ZLPlaceholderTextView *textView = [[ZLPlaceholderTextView alloc] initWithFrame:self.view.frame];
+    textView.placeholder = @"hello wprld";
+    [self.view addSubview:textView];
 //    ZLRandomVerifyCodeView *view = [[ZLRandomVerifyCodeView alloc] initWithFrame:CGRectMake(20, 20, CGRectGetWidth(self.view.frame) - 40, 40)];
 //    [view setBackgroundColor:[UIColor blueColor]];
 //    
