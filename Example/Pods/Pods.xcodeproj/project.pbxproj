@@ -11,6 +11,7 @@
 		0C78EF6C9E2DFEC476C3DB17 /* ZLRandomVerifyCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCDBDB8BE3B2CD704DEC3A49 /* ZLRandomVerifyCodeView.m */; };
 		126372A3A4211FC347B5E307 /* Pods-ZLCommonMethod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C59E6F5EF05A42B0B50A21C4 /* Pods-ZLCommonMethod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		13E5606A37798CD6EC759F71 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C80400B4B65B810AF2F877 /* MBProgressHUD.framework */; };
+		151120351B595A4A001D00F4 /* ZLPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 151120341B595A4A001D00F4 /* ZLPlaceholderTextView.m */; };
 		18011142394CA9D8721D5D53 /* ZLCommonMethod.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 35BE93AF5FB2EFC754BE4DAE /* ZLCommonMethod.bundle */; };
 		237E76E3B121A365DDF13244 /* Pods-ZLCommonMethod_Tests-ZLCommonMethod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F08183839F05E6B5E85E7B /* Pods-ZLCommonMethod_Tests-ZLCommonMethod-dummy.m */; };
 		24873AAC3E6E77438F363D9B /* NSString+ZLStringCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 86FE6F541ED0A7998E7D179A /* NSString+ZLStringCategory.m */; };
@@ -152,6 +153,8 @@
 		1386C307FD5361F18EF3CA06 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		142D1B1B693C6AD0CDA2F5A0 /* UIColor+ZLColorCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZLColorCategory.m"; sourceTree = "<group>"; };
 		14FBE2FB89B0426186D64178 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		151120331B595A4A001D00F4 /* ZLPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZLPlaceholderTextView.h; sourceTree = "<group>"; };
+		151120341B595A4A001D00F4 /* ZLPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZLPlaceholderTextView.m; sourceTree = "<group>"; };
 		16591B7B749541311A42FB16 /* ZLCommonMethod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZLCommonMethod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		168818601187C6B2430901AE /* Pods-ZLCommonMethod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZLCommonMethod_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		197B23C5BD0901119075F95D /* Pods-ZLCommonMethod_Example-MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZLCommonMethod_Example-MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
@@ -389,6 +392,8 @@
 			children = (
 				EB25B802C827E3ED5B9F85EB /* ZLRandomVerifyCodeView.h */,
 				BCDBDB8BE3B2CD704DEC3A49 /* ZLRandomVerifyCodeView.m */,
+				151120331B595A4A001D00F4 /* ZLPlaceholderTextView.h */,
+				151120341B595A4A001D00F4 /* ZLPlaceholderTextView.m */,
 			);
 			path = CommonView;
 			sourceTree = "<group>";
@@ -964,6 +969,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				151120351B595A4A001D00F4 /* ZLPlaceholderTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

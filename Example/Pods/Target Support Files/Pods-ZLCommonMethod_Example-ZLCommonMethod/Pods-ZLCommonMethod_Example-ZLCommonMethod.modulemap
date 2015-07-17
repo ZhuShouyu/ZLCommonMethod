@@ -1,6 +1,0 @@
-framework module ZLCommonMethod {
-  umbrella header "Pods-ZLCommonMethod_Example-ZLCommonMethod-umbrella.h"
-
-  export *
-  module * { export * }
-}
